@@ -16,90 +16,102 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:id="@+id/linearLayout8"
+            android:layout_alignTop="@+id/team1Button"
+            android:layout_centerHorizontal="true" >
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView8" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p1"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla1" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p2"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla2" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p3"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla3" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p4"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla4" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p5"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla5" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p6"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla6" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p7"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla7" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p8"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla8" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p9"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla9" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p10"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla10" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p11"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla11" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p12"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla12" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p13"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla13" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p14"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla14" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/pla15" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t1p15"
+                android:onClick="viewStats" />
         </LinearLayout>
     </ScrollView>
 
@@ -113,89 +125,102 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:id="@+id/linearLayout9"
+            android:layout_alignTop="@+id/team1Button"
+            android:layout_centerHorizontal="true" >
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/t2pla1" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p1"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/t2pla2" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p2"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button26" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p3"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button27" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p4"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button28" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p5"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button29" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p6"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button30" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p7"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button31" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p8"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button32" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p9"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button33" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p10"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button34" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p11"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button35" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p12"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button36" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p13"
+                android:onClick="viewStats" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button37" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p14"
+                android:onClick="viewStats" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView9" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/button38" />
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/t2p15"
+                android:onClick="viewStats" />
         </LinearLayout>
     </ScrollView>
-
 </RelativeLayout>

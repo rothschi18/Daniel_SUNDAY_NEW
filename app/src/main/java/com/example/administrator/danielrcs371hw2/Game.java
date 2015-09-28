@@ -34,7 +34,7 @@ public class Game extends ActionBarActivity {
     {
         //Add up strength for team 1
         int str1;
-        for()
+        //for()
     }
 
     @Override
